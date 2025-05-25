@@ -119,7 +119,7 @@ docker-compose up -d --build
 
 ## 🙋 Auteur
 
-**Aldio [GitHub Username]**  
+**Aldioma Mbaye**  
 Projet réalisé dans le cadre d’un apprentissage Data Engineering / ML Ops.
 
 > N'hésitez pas à me contacter pour une démo technique ou une revue du code !
