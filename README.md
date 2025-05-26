@@ -91,7 +91,26 @@ docker-compose up -d --build
 - `Nombre Trajets` : `COUNT(RealTimeData[trip_id])`
 - `Retard Moyen (s)` : `AVERAGE(RealTimeData[departure] - RealTimeData[arrival])`
 - `Durée Moyenne Parcours (s)` : `AVERAGE(RealTimeData[arrival] - RealTimeData[departure])`
+📚 Références & Sources de données
+Ce projet s’appuie sur des données publiques et ouvertes, provenant de plateformes fiables :
 
+🔹 Données SNCF officielles
+Horaires des lignes TER SNCF (GTFS & temps réel)
+• transport.data.gouv.fr (dataset principal)
+https://transport.data.gouv.fr/datasets/horaires-des-lignes-ter-sncf
+• data.gouv.fr (miroir officiel)
+https://www.data.gouv.fr/fr/datasets/horaires-des-lignes-ter-sncf/
+
+Ces jeux de données incluent :
+
+Les fichiers GTFS statiques : stops.txt, trips.txt, stop_times.txt, etc.
+
+Des mises à jour en temps réel de type GTFS-RT (trip updates, vehicle positions)
+
+🔹 Localisation des gares
+Liste complète des gares françaises (avec coordonnées géographiques)
+• Kaggle - Dataset de Nathan 
+https://www.kaggle.com/datasets/nathanlauga/french-train-station?select=liste-des-gares.csv
 ## 🙋 À propos
 
 **Auteur : Aldiouma Mbaye**  
